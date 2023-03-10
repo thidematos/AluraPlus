@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+:root{
+    --branco-principal: white;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167bf7;
+    --cor-fundo: #00030c;
+    --font: 'Inter';
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.section{
+    height: 100vh;
+    background-image: url('assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container_caixa{
+    margin-left:3.37em;
+}
+
+.section_h1{
+    text-align: center;
+    font:bold 1.75rem var(--font);
+    color: var(--branco-principal);
+}
+
+.container_imagem{
+    margin: 1.37em 0 2.75em 0;
+}
+
+.link{
+    font: normal 1rem var(--font);
+    color: var(--branco-principal);
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cta{
+    background-color: var(--botao-azul);
+}
+
+.paragrafo{
+    font: normal 0.75rem var(--font);
+    color: var(--branco-principal);
+}
+
+.container_section2{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 0 10em 10em 10em;
+}
+
+.section2_imagem{
+    width: 80%;
+    margin: 2em;
+}
+
+
+.descricao_h2{
+    color: var(--branco-principal);
+    font: bold 3rem var(--font);
+    padding: 0.5em;
+}
+
+
+.descricao_paragrafo{
+    color: var(--branco-principal);
+    font: normal 1rem var(--font);
+}
+
+._2{
+    display:inline-block;
+}
+
+.container_section_final{
+    display:flex;
+    width: 100vw;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.final_content{
+    display:grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.content_paragrafo{
+    color: var(--branco-principal);
+    font: bold 2rem var(--font);
+    text-align: center;
+}
+
+.container_footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: space-around;
+    margin: 5vw;
+    gap: 0;
+}
+
+.footer_links{
+    display:flex;
+    flex-flow: row wrap;
+    padding: 5% 0;
+    gap: 2%;
+}
+
+.footer_links_nav{
+    color: white;
+    font: normal 1rem var(--font);
+}

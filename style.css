@@ -121,15 +121,16 @@ body{
     flex-flow: column wrap;
     align-items: center;
     align-content: space-around;
-    margin: 5vw;
-    gap: 0;
+    margin: 20vh 5vw;
+    gap: 5vh;
 }
 
 .footer_links{
     display:flex;
     flex-flow: row wrap;
-    padding: 5% 0;
     gap: 2%;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .footer_links_nav{

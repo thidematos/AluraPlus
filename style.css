@@ -121,14 +121,15 @@ body{
     flex-flow: column wrap;
     align-items: center;
     align-content: space-around;
-    margin: 20vh 5vw;
+    margin: 20vh 5vw 5vh 5vw;
     gap: 5vh;
 }
 
 .footer_links{
     display:flex;
+    width: 90vw;
     flex-flow: row wrap;
-    gap: 2%;
+    gap: 1em;
     justify-content: center;
     align-items: flex-end;
 }
@@ -136,4 +137,10 @@ body{
 .footer_links_nav{
     color: white;
     font: normal 1rem var(--font);
+}
+
+.footer_paragrafo{
+    font: normal 0.87rem var(--font);
+    color:white;
+    text-align: center;
 }

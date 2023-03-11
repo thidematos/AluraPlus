@@ -31,7 +31,7 @@ body{
     height: 100vh;
     background-image: url('assets/Background.png');
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: contain;
 }
 
 .container_caixa{
@@ -144,3 +144,4 @@ body{
     color:white;
     text-align: center;
 }
+
